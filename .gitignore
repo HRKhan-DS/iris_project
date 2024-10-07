@@ -129,6 +129,11 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+#Data_sets
+data_sets/
+.data_sets
+artifacts/
+.artifacts/
 
 # Spyder project settings
 .spyderproject
