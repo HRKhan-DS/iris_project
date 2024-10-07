@@ -20,7 +20,7 @@ def load_data(file_path):
 def save_data(data, file_path):
     try:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        data.to_csv(file_path, index=False)
+        data.to_csv(file_path, index=False, header=True)
         logging.info(f"Data saved to {file_path} successfully.")
     except Exception as e:
         raise CustomError(f"Failed to save data to {file_path}: {str(e)}", sys)
@@ -35,7 +35,7 @@ def split_data(df, target_column, test_size=0.2, random_state=42):
     except Exception as e:
         raise CustomError(f"Failed to split data: {str(e)}", sys)
 
-def save_file(file_path, obj):
+def save_pickle_file(file_path, obj):
     try:
         file_dir = os.path.dirname(file_path)
         os.makedirs(file_dir, exist_ok=True)
@@ -47,7 +47,7 @@ def save_file(file_path, obj):
     except Exception as e:
         raise CustomError(f"Failed to save file to {file_path}: {str(e)}", sys)
 
-def load_file(file_path):
+def load_pickle_file(file_path):
     try:
         with open(file_path, 'rb') as file:
             obj = pickle.load(file)

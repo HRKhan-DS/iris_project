@@ -2,3 +2,13 @@
 2024-10-07 06:07:43,518 -19 -root -Logging start sucessfull
 2024-10-07 06:43:22,377 -24 -root -Testing exception.py
 2024-10-07 06:44:57,422 -62 -root -Testing utils.py
+2024-10-07 07:07:29,980 -21 -root -Data Initiate start.
+2024-10-07 07:07:29,988 -24 -root -Data saved to artifacts\data.csv successfully.
+2024-10-07 07:07:29,990 -24 -root -Data saved to artifacts\train.csv successfully.
+2024-10-07 07:07:29,991 -24 -root -Data saved to artifacts\test.csv successfully.
+2024-10-07 07:07:29,991 -30 -root -Train and test data saved to artifacts folder.
+2024-10-07 07:07:29,991 -31 -root -Initial data ingestion completed.
+2024-10-07 20:46:22,995 -24 -root -Data transformation start.
+2024-10-07 20:46:22,995 -36 -root -Data clean and make for transformation.
+2024-10-07 20:46:22,999 -46 -root -Saved the file in artifacts\preprocessor.pkl
+2024-10-07 20:46:22,999 -41 -root -save the preprocessor file.
