@@ -12,3 +12,25 @@
 2024-10-07 20:46:22,995 -36 -root -Data clean and make for transformation.
 2024-10-07 20:46:22,999 -46 -root -Saved the file in artifacts\preprocessor.pkl
 2024-10-07 20:46:22,999 -41 -root -save the preprocessor file.
+2024-10-07 21:49:52,147 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 21:49:52,154 -23 -root -Model train start.
+2024-10-07 21:51:39,347 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 21:51:39,352 -23 -root -Model train start.
+2024-10-07 21:54:13,184 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 21:54:13,190 -23 -root -Model train start.
+2024-10-07 21:55:26,257 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 21:55:26,262 -23 -root -Model train start.
+2024-10-07 21:57:27,482 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 21:57:27,487 -24 -root -Model train start.
+2024-10-07 22:01:15,781 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-07 22:01:15,785 -26 -root -Model train start.
+2024-10-07 22:01:15,840 -36 -root -Train r2 score 0.9902204873931849, Test r2 score 0.9988267090620032
+2024-10-07 22:01:15,842 -46 -root -Saved the file in artifacts\model.pkl
+2024-10-08 09:11:53,003 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-08 09:11:53,008 -26 -root -Model train start.
+2024-10-08 09:11:53,065 -36 -root -Train r2 score  0.99, Test r2 score 1.00
+2024-10-08 09:11:53,067 -46 -root -Saved the file in artifacts\model.pkl
+2024-10-08 09:12:22,595 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-08 09:12:22,599 -26 -root -Model train start.
+2024-10-08 09:12:22,657 -36 -root -Train r2 score  0.9905, Test r2 score 0.9992
+2024-10-08 09:12:22,659 -46 -root -Saved the file in artifacts\model.pkl
