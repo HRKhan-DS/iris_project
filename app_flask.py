@@ -59,9 +59,9 @@ def predict():
 def result(species):
     species_names = ['Iris-setosa', 'Iris-versicolor', 'Iris-virginica']
     species_images = {
-        'Iris-setosa': 'images/iris_setosa.jpg',  # Removed static/
-        'Iris-versicolor': 'images/Iris-versicolor.jpg',
-        'Iris-virginica': 'images/Iris-virginica.jpg'
+        'Iris-setosa': r'images/iris_setosa.jpg',  # Removed static/
+        'Iris-versicolor': r'images/Iris-versicolor.jpg',
+        'Iris-virginica': r'images/Iris-virginica.jpg'
     }
 
     # Convert species to an integer index

@@ -38,13 +38,13 @@ def main():
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.image('G:\GIT_Project-2025\iris_project\static\images\Iris_setosa.jpg', caption="Iris Setosa")
+            st.image(r'G:\GIT_Project-2025\iris_project\static\images\Iris_setosa.jpg', caption="Iris Setosa")
         
         with col2:
-            st.image('G:\GIT_Project-2025\iris_project\static\images\Iris-versicolor.jpg', caption="Iris Versicolor")
+            st.image(r'G:\GIT_Project-2025\iris_project\static\images\Iris-versicolor.jpg', caption="Iris Versicolor")
         
         with col3:
-            st.image('G:\GIT_Project-2025\iris_project\static\images\Iris-virginica.jpg', caption="Iris Virginica")
+            st.image(r'G:\GIT_Project-2025\iris_project\static\images\Iris-virginica.jpg', caption="Iris Virginica")
 
         # Prompt the user
         st.write("Iris Setosa, or 'Sitka iris', is native to North America's wetlands.")
@@ -91,9 +91,9 @@ def main():
 
                 # Show species image
                 species_images = {
-                    'Iris-setosa': 'G:\GIT_Project-2025\iris_project\static\images\Iris_setosa.jpg',
-                    'Iris-versicolor': 'G:\GIT_Project-2025\iris_project\static\images\Iris-versicolor.jpg',
-                    'Iris-virginica': 'G:\GIT_Project-2025\iris_project\static\images\Iris-virginica.jpg'
+                    'Iris-setosa': r'G:\GIT_Project-2025\iris_project\static\images\Iris_setosa.jpg',
+                    'Iris-versicolor': r'G:\GIT_Project-2025\iris_project\static\images\Iris-versicolor.jpg',
+                    'Iris-virginica': r'G:\GIT_Project-2025\iris_project\static\images\Iris-virginica.jpg'
                 }
 
                 st.success(f"The predicted species is: {predicted_species}")
