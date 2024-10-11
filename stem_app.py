@@ -5,9 +5,12 @@ from streamlit_option_menu import option_menu
 from src.utils import load_pickle_file
 from src.logger import logging
 
-# Load model and preprocessor
-model_path = os.path.join('artifacts', 'model.pkl')
-preprocessor_path = os.path.join('artifacts', 'preprocessor.pkl')
+# Get the current working directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Load model and preprocessor using absolute paths
+model_path = os.path.join(current_dir, 'artifacts', 'model.pkl')
+preprocessor_path = os.path.join(current_dir, 'artifacts', 'preprocessor.pkl')
 
 model = load_pickle_file(model_path)
 preprocessor = load_pickle_file(preprocessor_path)
@@ -24,11 +27,10 @@ def main():
         selected = option_menu(
             'Classification App',
             ['Home', 'Predict', 'Author'],
-            icons=['file-earmark-text', 'check-circle', 'info-circle'],  # Changed 'activity' to 'check-circle'
-            menu_icon='iris-fill',  # Use 'iris-fill' as the menu icon
+            icons=['file-earmark-text', 'check-circle', 'info-circle'],
+            menu_icon='iris-fill',
             default_index=0
         )
-
 
     # Navigation logic based on selected option
     if selected == "Home":
@@ -48,11 +50,11 @@ def main():
 
         # Prompt the user
         st.write("Iris Setosa, or 'Sitka iris', is native to North America's wetlands.")
-        st.write(" Iris Versicolor,Known as the 'Blue Flag iris', Iris Versicolor is found in wetland areas of North America.")
-        st.write("Iris Virginica, or 'Virginia iris', is native to the eastern United States. ") 
+        st.write("Iris Versicolor, known as the 'Blue Flag iris', is found in wetland areas of North America.")
+        st.write("Iris Virginica, or 'Virginia iris', is native to the eastern United States.")
         st.write("Its resilience and attractive foliage make it popular in gardens.")
 
-        st.write("Are you intereted to knowing it classification?? Please got to 'Prediction' section.")
+        st.write("Are you interested in knowing its classification? Please go to the 'Prediction' section.")
 
     elif selected == "Predict":
         st.title("Iris Species Prediction")
