@@ -8,7 +8,7 @@ from src.logger import logging
 from src.exception import CustomError
 
 # Get the current working directory
-current_dir = os.path.dirname(os.path.abspath(__file__))
+current_dir = os.path.dirname(__file__)
 
 # Load model and preprocessor using absolute paths
 model_path = os.path.join(current_dir, 'artifacts', 'model.pkl')
