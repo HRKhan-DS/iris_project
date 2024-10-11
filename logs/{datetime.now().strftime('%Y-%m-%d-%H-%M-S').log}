@@ -1,36 +1,130 @@
-2024-10-07 06:07:15,473-19-root-Logging start sucessfull
-2024-10-07 06:07:43,518 -19 -root -Logging start sucessfull
-2024-10-07 06:43:22,377 -24 -root -Testing exception.py
-2024-10-07 06:44:57,422 -62 -root -Testing utils.py
-2024-10-07 07:07:29,980 -21 -root -Data Initiate start.
-2024-10-07 07:07:29,988 -24 -root -Data saved to artifacts\data.csv successfully.
-2024-10-07 07:07:29,990 -24 -root -Data saved to artifacts\train.csv successfully.
-2024-10-07 07:07:29,991 -24 -root -Data saved to artifacts\test.csv successfully.
-2024-10-07 07:07:29,991 -30 -root -Train and test data saved to artifacts folder.
-2024-10-07 07:07:29,991 -31 -root -Initial data ingestion completed.
-2024-10-07 20:46:22,995 -24 -root -Data transformation start.
-2024-10-07 20:46:22,995 -36 -root -Data clean and make for transformation.
-2024-10-07 20:46:22,999 -46 -root -Saved the file in artifacts\preprocessor.pkl
-2024-10-07 20:46:22,999 -41 -root -save the preprocessor file.
-2024-10-07 21:49:52,147 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 21:49:52,154 -23 -root -Model train start.
-2024-10-07 21:51:39,347 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 21:51:39,352 -23 -root -Model train start.
-2024-10-07 21:54:13,184 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 21:54:13,190 -23 -root -Model train start.
-2024-10-07 21:55:26,257 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 21:55:26,262 -23 -root -Model train start.
-2024-10-07 21:57:27,482 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 21:57:27,487 -24 -root -Model train start.
-2024-10-07 22:01:15,781 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-07 22:01:15,785 -26 -root -Model train start.
-2024-10-07 22:01:15,840 -36 -root -Train r2 score 0.9902204873931849, Test r2 score 0.9988267090620032
-2024-10-07 22:01:15,842 -46 -root -Saved the file in artifacts\model.pkl
-2024-10-08 09:11:53,003 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-08 09:11:53,008 -26 -root -Model train start.
-2024-10-08 09:11:53,065 -36 -root -Train r2 score  0.99, Test r2 score 1.00
-2024-10-08 09:11:53,067 -46 -root -Saved the file in artifacts\model.pkl
-2024-10-08 09:12:22,595 -55 -root -Loaded the file from artifacts\preprocessor.pkl
-2024-10-08 09:12:22,599 -26 -root -Model train start.
-2024-10-08 09:12:22,657 -36 -root -Train r2 score  0.9905, Test r2 score 0.9992
-2024-10-08 09:12:22,659 -46 -root -Saved the file in artifacts\model.pkl
+
+2024-10-11 18:54:02,430 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 18:54:02,431 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 18:54:02,442 -97 -werkzeug -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 18:54:02,442 -97 -werkzeug -[33mPress CTRL+C to quit[0m
+2024-10-11 18:54:02,443 -97 -werkzeug - * Restarting with stat
+2024-10-11 18:54:03,306 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 18:54:03,307 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 18:54:03,313 -97 -werkzeug - * Debugger is active!
+2024-10-11 18:54:03,315 -97 -werkzeug - * Debugger PIN: 320-815-114
+2024-10-11 18:54:08,488 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:08] "GET / HTTP/1.1" 200 -
+2024-10-11 18:54:08,561 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:08] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 18:54:08,561 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:08] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 18:54:08,562 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:08] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:54:08,567 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:54:09,735 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:09] "GET /form HTTP/1.1" 200 -
+2024-10-11 18:54:09,745 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:54:18,656 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:18] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:54:18,664 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:18] "GET /result/0.53 HTTP/1.1" 200 -
+2024-10-11 18:54:18,675 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:18] "GET /static/images/iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 18:54:22,034 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:54:36,979 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:36] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:54:36,981 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:36] "GET /result/1.47 HTTP/1.1" 200 -
+2024-10-11 18:54:36,991 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:54:36] "[33mGET /static/images/iris_versicolor.jpg HTTP/1.1[0m" 404 -
+2024-10-11 18:56:10,961 -97 -werkzeug - * Detected change in 'G:\\GIT_Project-2025\\iris_project\\app.py', reloading
+2024-10-11 18:56:11,112 -97 -werkzeug - * Restarting with stat
+2024-10-11 18:56:11,997 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 18:56:11,999 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 18:56:12,004 -97 -werkzeug - * Debugger is active!
+2024-10-11 18:56:12,006 -97 -werkzeug - * Debugger PIN: 320-815-114
+2024-10-11 18:56:14,529 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:14] "GET /result/1.47 HTTP/1.1" 200 -
+2024-10-11 18:56:14,557 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:14] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:56:14,559 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:56:17,618 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:56:25,269 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:25] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:56:25,272 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:25] "GET /result/1.47 HTTP/1.1" 200 -
+2024-10-11 18:56:25,282 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:25] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:56:27,206 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:56:30,658 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:30] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:56:30,660 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:30] "GET /result/1.44 HTTP/1.1" 200 -
+2024-10-11 18:56:30,672 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:30] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:56:32,852 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:56:35,450 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:35] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:56:35,452 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:35] "GET /result/1.44 HTTP/1.1" 200 -
+2024-10-11 18:56:35,461 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:35] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:56:37,144 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:56:39,538 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:39] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:56:39,541 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:39] "GET /result/1.44 HTTP/1.1" 200 -
+2024-10-11 18:56:39,552 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:56:39] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:57:10,637 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:57:30,781 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:30] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:57:30,784 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:30] "GET /result/1.99 HTTP/1.1" 200 -
+2024-10-11 18:57:30,792 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:30] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:57:30,796 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:57:39,721 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:57:56,397 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:56] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:57:56,400 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:56] "GET /result/1.0 HTTP/1.1" 200 -
+2024-10-11 18:57:56,410 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:56] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 18:57:56,415 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:57:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:58:09,176 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:58:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:58:33,131 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:58:33] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:58:33,133 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:58:33] "GET /result/0.55 HTTP/1.1" 200 -
+2024-10-11 18:58:33,142 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:58:33] "GET /static/images/iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 18:58:33,145 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:58:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:59:49,658 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:59:50,850 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 18:59:52,076 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:52] "GET /form HTTP/1.1" 200 -
+2024-10-11 18:59:59,808 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:59] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 18:59:59,819 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:59] "GET /result/1.76 HTTP/1.1" 200 -
+2024-10-11 18:59:59,829 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 18:59:59] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:07,303 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:11,357 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:11] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:00:11,359 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:11] "GET /result/1.75 HTTP/1.1" 200 -
+2024-10-11 19:00:11,369 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:11] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:11,372 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:13,310 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:16,581 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:16] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:00:16,584 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:16] "GET /result/1.47 HTTP/1.1" 200 -
+2024-10-11 19:00:16,593 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:16] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:18,806 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:26,410 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:26] "GET /form HTTP/1.1" 200 -
+2024-10-11 19:00:32,826 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:32] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:00:32,828 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:32] "GET /result/0.0 HTTP/1.1" 200 -
+2024-10-11 19:00:32,838 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:32] "GET /static/images/iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:32,841 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:35,351 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:35] "GET / HTTP/1.1" 200 -
+2024-10-11 19:00:35,366 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:35] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:35,366 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:35] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:35,367 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:35] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:35,372 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:36,674 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:36] "GET /form HTTP/1.1" 200 -
+2024-10-11 19:00:42,539 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:42] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:00:42,542 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:42] "GET /result/2.0 HTTP/1.1" 200 -
+2024-10-11 19:00:42,552 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:42] "[36mGET /static/images/Iris-virginica.jpg HTTP/1.1[0m" 304 -
+2024-10-11 19:00:47,274 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:47] "GET / HTTP/1.1" 200 -
+2024-10-11 19:00:47,287 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:47] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:47,287 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:47] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:47,288 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:47] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 19:00:47,292 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:00:48,815 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:48] "GET /form HTTP/1.1" 200 -
+2024-10-11 19:00:48,825 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:00:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:01:16,227 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:16] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:01:16,230 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:16] "GET /result/0.0 HTTP/1.1" 200 -
+2024-10-11 19:01:16,239 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:16] "GET /static/images/iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:19,716 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:19] "GET / HTTP/1.1" 200 -
+2024-10-11 19:01:19,729 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:19] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:19,730 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:19] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:19,731 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:19] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:19,735 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:01:21,044 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:21] "GET /form HTTP/1.1" 200 -
+2024-10-11 19:01:37,878 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:37] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:01:37,881 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:37] "GET /result/1.0 HTTP/1.1" 200 -
+2024-10-11 19:01:37,891 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:37] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:37,894 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:01:40,604 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:40] "GET / HTTP/1.1" 200 -
+2024-10-11 19:01:40,617 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:40] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:40,619 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:40] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:40,619 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:40] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:40,623 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:01:45,974 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:45] "GET /form HTTP/1.1" 200 -
+2024-10-11 19:01:58,656 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:58] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 19:01:58,659 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:58] "GET /result/1.99 HTTP/1.1" 200 -
+2024-10-11 19:01:58,670 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:58] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:01:58,672 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:01:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:02:07,441 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET / HTTP/1.1" 200 -
+2024-10-11 19:02:07,454 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 19:02:07,455 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 19:02:07,455 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 19:02:07,459 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

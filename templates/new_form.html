@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        select, input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .form-group > div {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .form-group > div:last-child {
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter Data for Iris Classification Prediction</h1>
+        <form action="/predictform" method="post">
+            <div class="form-group">
+                <div> 
+
+                    <label for="SepalLengthCm">Sepal Length (cm)</label>
+                    <input type="number" class="form-control" id="SepalLengthCm" name="SepalLengthCm"  step="0.1" required>
+                </div>
+                <div>
+                    <label for="SepalWidthCm">Sepal Width (cm)</label>
+                    <input type="number" class="form-control" id="SepalWidthCm" name="SepalWidthCm"  step="0.1" required>
+                </div>
+                <div>
+                    <label for="PetalLengthCm">Petal Length (cm)</label>
+                    <input type="number" class="form-control" id="PetalLengthCm" name="PetalLengthCm"  step="0.1" required>
+                </div>
+                <div>
+                    <label for="PetalWidthCm">Petal Width (cm)</label>
+                    <input type="number" class="form-control" id="PetalWidthCm" name="PetalWidthCm"  step="0.1" required>
+                </div>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

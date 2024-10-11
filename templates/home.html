@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Simple Iris Classification</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9; /* Added a light background color for better aesthetics */
+        }
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added shadow for better visibility */
+            background-color: white; /* White background for the content area */
+        }
+        .button {
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff; /* Added a background color for the button */
+            color: white; /* Set text color to white */
+            border: none; /* Removed default border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Change cursor on hover */
+        }
+        .button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+        .images {
+            margin-top: 30px;
+        }
+        .images img {
+            width: 200px;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px; /* Rounded corners for images */
+            transition: transform 0.2s; /* Smooth scaling effect on hover */
+        }
+        .images img:hover {
+            transform: scale(1.05); /* Scale image on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Iris Classification</h1>
+        <p>This application allows you to classify iris species based on various feature values. Get your results instantly!</p>
+        
+        <div class="images">
+            <img src="{{ url_for('static', filename='images/Iris_setosa.jpg') }}" alt="Iris Setosa">
+            <img src="{{ url_for('static', filename='images/Iris-versicolor.jpg') }}" alt="Iris Versicolor">
+            <img src="{{ url_for('static', filename='images/Iris-virginica.jpg') }}" alt="Iris Virginica">
+            
+        </div>
+
+        <form action="/form" method="GET"> <!-- Added method attribute for clarity -->
+            <input type="submit" value="Next" class="button">
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iris Classification Prediction Result">
+    <title>Iris Classification Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            width: 100%;
+            max-width: 300px; /* Adjust the image size */
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #28a745;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff; /* Button color */
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Iris Classification Result</h1>
+        <div class="result">
+            <p>The predicted species is: <span id="predictedSpecies">{{ predicted_species }}</span></p>
+            <img src="{{ species_image }}" alt="{{ predicted_species }} image">
+        </div>
+        <a href="/">Go back to the prediction form</a>
+    </main>
+</body>
+</html>
+
