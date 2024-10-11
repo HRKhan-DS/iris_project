@@ -6,3 +6,5 @@ missingno
 scipy
 scikit-learn
 flask
+streamlit
+streamlit-option-menu

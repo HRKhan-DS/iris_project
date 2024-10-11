@@ -128,3 +128,229 @@
 2024-10-11 19:02:07,455 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
 2024-10-11 19:02:07,455 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
 2024-10-11 19:02:07,459 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 19:02:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 19:15:32,397 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:15:32,399 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:15:32,409 -97 -werkzeug -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 19:15:32,409 -97 -werkzeug -[33mPress CTRL+C to quit[0m
+2024-10-11 19:15:40,527 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:15:40,527 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:15:40,532 -97 -werkzeug -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 19:15:40,532 -97 -werkzeug -[33mPress CTRL+C to quit[0m
+2024-10-11 19:17:09,567 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:17:09,568 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:17:09,575 -97 -werkzeug -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 19:17:09,576 -97 -werkzeug -[33mPress CTRL+C to quit[0m
+2024-10-11 19:20:34,046 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:34,048 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:38,039 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:38,040 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:38,051 -56 -root -Error during prediction: list indices must be integers or slices, not numpy.float64
+2024-10-11 19:20:44,431 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:44,432 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:45,894 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:45,894 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:46,798 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:46,799 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:47,710 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:47,710 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:48,687 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:20:48,687 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:20:48,697 -56 -root -Error during prediction: list indices must be integers or slices, not numpy.float64
+2024-10-11 19:23:38,216 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:23:38,216 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:23:47,658 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:23:47,659 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:23:50,241 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:23:50,241 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:23:50,325 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:23:50,326 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:03,734 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:03,735 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:03,950 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:03,950 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:04,134 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:04,134 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:04,301 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:04,302 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:04,453 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:04,453 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:04,613 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:04,614 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:04,757 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:04,758 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:24:05,542 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:24:05,543 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:25:17,327 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:25:17,327 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:25:22,388 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:25:22,389 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:25:25,489 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:25:25,489 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:25:27,173 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:25:27,174 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:25:32,613 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:25:32,613 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:27:19,408 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:27:19,408 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:27:25,027 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:27:25,027 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:27:33,005 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:27:33,005 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:28:58,902 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:28:58,902 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:29:07,011 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:29:07,011 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:29:10,070 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:29:10,071 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:30:01,420 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:30:01,420 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:30:24,705 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:30:24,705 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:31:09,754 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:31:09,754 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:32:09,774 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:32:09,775 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:32:27,217 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:32:27,217 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:32:31,846 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:32:31,846 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:34:43,574 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:34:43,574 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:34:46,542 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:34:46,542 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:36:42,507 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:36:42,508 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:36:44,627 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:36:44,628 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:36:56,314 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:36:56,315 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:36:58,334 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:36:58,335 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:38:32,006 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:38:32,006 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:38:43,789 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:38:43,789 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:39:28,768 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:39:28,768 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:39:30,947 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:39:30,948 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:43:38,954 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:43:38,954 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:43:43,960 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:43:43,960 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:43:45,933 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:43:45,934 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:43:55,671 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:43:55,671 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:44:40,928 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:44:40,929 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:45:47,552 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:45:47,554 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:09,513 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:09,513 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:17,088 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:17,088 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:19,534 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:19,535 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:22,398 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:22,399 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:49,704 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:49,704 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:51,404 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:51,404 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 19:58:53,838 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 19:58:53,839 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:02:33,237 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:02:33,237 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:04:10,843 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:04:10,844 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:05:15,102 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:05:15,102 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:05:25,575 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:05:25,575 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:06:04,085 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:06:04,085 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:07:45,968 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:07:45,968 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:07:50,493 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:07:50,494 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:07:53,143 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:07:53,143 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:32,868 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:32,868 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:34,165 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:34,166 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:44,758 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:44,759 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:45,678 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:45,678 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:46,420 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:46,421 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:47,253 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:47,253 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:48,780 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:48,781 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:09:50,133 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:09:50,134 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:10:43,791 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:10:43,792 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:10:45,218 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:10:45,219 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:10:55,064 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:10:55,064 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:10:57,053 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:10:57,053 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:10:58,476 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:10:58,476 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:11:02,508 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:11:02,508 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:11:02,939 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:11:02,939 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:11:04,411 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:11:04,412 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:11:07,508 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:11:07,508 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:11:07,592 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:11:07,593 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:12:18,785 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:12:18,786 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:12:18,799 -97 -werkzeug -[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 20:12:18,799 -97 -werkzeug -[33mPress CTRL+C to quit[0m
+2024-10-11 20:12:18,804 -97 -werkzeug - * Restarting with watchdog (windowsapi)
+2024-10-11 20:12:19,680 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:12:19,682 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:12:19,687 -97 -werkzeug - * Debugger is active!
+2024-10-11 20:12:19,688 -97 -werkzeug - * Debugger PIN: 320-815-114
+2024-10-11 20:12:29,236 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:29] "GET / HTTP/1.1" 200 -
+2024-10-11 20:12:29,349 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:29] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:29,350 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:29] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:29,350 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:29] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:29,356 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 20:12:30,693 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:30] "GET /form HTTP/1.1" 200 -
+2024-10-11 20:12:37,596 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:37] "[32mPOST /predictform HTTP/1.1[0m" 302 -
+2024-10-11 20:12:37,606 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:37] "GET /result/0.0 HTTP/1.1" 200 -
+2024-10-11 20:12:37,616 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:37] "GET /static/images/iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:37,619 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-11 20:12:40,699 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:40] "GET / HTTP/1.1" 200 -
+2024-10-11 20:12:40,716 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:40] "GET /static/images/Iris_setosa.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:40,716 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:40] "GET /static/images/Iris-versicolor.jpg HTTP/1.1" 200 -
+2024-10-11 20:12:40,716 -97 -werkzeug -127.0.0.1 - - [11/Oct/2024 20:12:40] "GET /static/images/Iris-virginica.jpg HTTP/1.1" 200 -
+2024-10-11 20:13:14,109 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:13:14,111 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:13:16,683 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:13:16,683 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:13:18,411 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:13:18,412 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:13:46,880 -97 -werkzeug - * Detected change in 'G:\\GIT_Project-2025\\iris_project\\stem_app.py', reloading
+2024-10-11 20:13:46,880 -97 -werkzeug - * Detected change in 'G:\\GIT_Project-2025\\iris_project\\stem_app.py', reloading
+2024-10-11 20:13:46,881 -97 -werkzeug - * Detected change in 'G:\\GIT_Project-2025\\iris_project\\stem_app.py', reloading
+2024-10-11 20:13:46,881 -97 -werkzeug - * Detected change in 'G:\\GIT_Project-2025\\iris_project\\stem_app.py', reloading
+2024-10-11 20:13:47,242 -97 -werkzeug - * Restarting with watchdog (windowsapi)
+2024-10-11 20:13:48,187 -55 -root -Loaded the file from artifacts\model.pkl
+2024-10-11 20:13:48,188 -55 -root -Loaded the file from artifacts\preprocessor.pkl
+2024-10-11 20:13:48,194 -97 -werkzeug - * Debugger is active!
+2024-10-11 20:13:48,196 -97 -werkzeug - * Debugger PIN: 320-815-114
