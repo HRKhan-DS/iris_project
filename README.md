@@ -1,1 +1,1 @@
-Welcome to Simple Iris Classification
+Welcome to Simple Iris Classification App
